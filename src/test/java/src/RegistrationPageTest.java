@@ -27,7 +27,7 @@ public class RegistrationPageTest {
     try {
       driver.get("https://demowebshop.tricentis.com/register");
       RegistrationPage registrationPage = new RegistrationPage(driver);
-      registrationPage.register("John", "Doe", "john.doe2@example.com", "Password123");
+      registrationPage.register("John", "Doe", "john.doe3@example.com", "Password123");
 
       Assert.assertTrue("Пользователь не был перенаправлен на страницу успеха.",
           registrationPage.isRedirectedToSuccessPage());
