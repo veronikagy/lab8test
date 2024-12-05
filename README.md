@@ -1,4 +1,5 @@
 Нажмем на зеленую кнопку <>Code и скопируем url:
+
 ![img.png](img.png)
 
 Откроем IntellijIdea -> File -> New -> Project from Version Control
@@ -6,6 +7,7 @@
 ![img_1.png](img_1.png)
 
 Вставим скопированный URL:
+
 ![img_2.png](img_2.png)
 
 Нажмём кнопку Clone. 
